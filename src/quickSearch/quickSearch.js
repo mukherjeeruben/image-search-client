@@ -19,10 +19,14 @@ const useStyles = makeStyles((theme) => ({
     marginTop: theme.spacing(3),
   },
   textField: {
-    width: "25ch",
+    width: "70ch",
     padding: "12px 12px 12px",
-  },
-
+    "&>div:first-child>div:last-child": {
+      display: 'flex',
+      marginTop: '0',
+      alignSelf: 'initial'
+    }
+  }
 }));
 
 const QuickSearch = (props) => {
