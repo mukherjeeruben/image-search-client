@@ -27,7 +27,6 @@ const useStyles = makeStyles((theme) => ({
       transition: theme.transitions.create(["border-color", "box-shadow"]),
       "&:hover": {
         backgroundColor: "#fff",
-        text: 'Search'
       },
       "&$focused": {
         backgroundColor: "#fff",
